@@ -1,0 +1,228 @@
+:root {
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+}
+
+@media (min-width: 1440px) {
+    
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 1444px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Cream);
+}
+
+.card-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: var(--White);
+    border-radius: 10px;
+
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.info-produto {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 1439px) {
+    
+    body, html {
+        padding: 15px;
+        height: 100%;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--Cream);
+    }
+
+
+.card-produto {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    background-color: var(--White);
+    border-radius: 10px;
+
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-produto {
+    width: 87%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 25px;
+    
+}
+
+}
+
+@media (min-width: 375px) and (max-width: 1439px) and (orientation: landscape) {
+    
+    body, html {
+        margin: 0;
+        padding: 25px;
+        height: 600px;
+        width: 768px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--Cream);
+    }
+    
+    .card-produto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 100%;
+        background-color: var(--White);
+        border-radius: 10px;
+    
+    }
+    
+    .image {
+        height: 100%;
+        width: 100%;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .info-produto {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 25px;
+    }
+
+}
+
+
+
+p {
+    font-size: 14px;
+}
+
+
+
+.preco {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 80%;
+}
+
+.preco h1 {
+    color: var(--Dark-cyan);
+}
+
+.preco h4 {
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+font-size: 10px;
+}
+
+.info-produto p {
+    color: var(--Dark-grayish-blue);
+    line-height: 22px;
+}
+
+button {
+    height: 10%;
+    width: 100%;
+    border: none;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button i {
+    margin: 15px;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 29%);
+}
+
+.info-produto h3 {
+    color: var(--Dark-grayish-blue);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 6px;
+}
+
+.info-produto h1 {
+    font-family: 'Fraunces';
+
+}
+
+.info-produto p,h4,h3 {
+    font-family: 'Montserrat';
+}
+
+.attribution {
+     margin: 10px;
+     font-size: 11px; 
+     text-align: center; 
+}
+    .attribution a {
+         color: hsl(228, 45%, 44%); 
+        }
